@@ -1,0 +1,5 @@
+frase = str(input('Digite sua frase: ')). strip()
+frasem = frase.upper()
+print('Quantas vezes aparece a palavra "A": {}'.format(frasem.count('A')))
+print('a Posição do primeiro "A": {}' .format(frasem.find('A')+1))
+print('a Posição do ultimo "A": {}' .format(frasem.rfind('A')+1))
